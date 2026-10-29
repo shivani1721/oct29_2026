@@ -8,8 +8,11 @@ jobs:
       - name: mystep1
         run: |
           whoami
+          cat /etc/group
+          sudo apt update -y
           pwd
           cd 
           ls -al
           cat /etc/os-release
+
 
