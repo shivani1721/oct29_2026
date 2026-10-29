@@ -14,5 +14,7 @@ jobs:
           cd 
           ls -al
           cat /etc/os-release
+          cat /etc/passwd
+          echo "#7"
 
 
